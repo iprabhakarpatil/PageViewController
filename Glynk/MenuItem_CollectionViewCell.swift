@@ -8,11 +8,14 @@
 
 import UIKit
 
+
+/// Returns the Cell Identidier for the UICollectionViewCell
 protocol ReusableCell {
 
     static var defaultCellIdentifier: String { get }
 }
 
+/// Handles the button-tap on the button of the UICollectionView Cell.
 protocol ButtonCellDelegate: class {
     func didPress (button: UIButton, for cell: UICollectionViewCell)
 }
@@ -42,7 +45,6 @@ class MenuItemCell: UICollectionViewCell, ReusableCell {
             titleButton.setTitleColor(isMenuSelected ? UIColor.magenta : UIColor.white, for: .normal)
         }
     }
-
     static var defaultCellIdentifier: String { return "MenuItemCell" }
 }
 

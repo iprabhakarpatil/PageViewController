@@ -39,19 +39,11 @@ class ViewController: UIViewController, PagedContainer {
     private var pageController: PageController!
 
     override func viewDidLoad() {
-        print("Loaded ViewController")
         super.viewDidLoad()
-
         pagedMenu = self.childViewControllers [0] as! PagedMenu
         pagedMenu.pageContainer = self
         pageController = self.childViewControllers [1] as! PageController
         pageController.pageContainer = self
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     func didSelectMenu(at index: Int) {

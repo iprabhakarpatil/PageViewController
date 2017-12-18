@@ -25,7 +25,8 @@ class PageViewController: UIPageViewController, PageController {
     }()
     
     private (set) var currentMenuIndex: Int = 0
-    
+
+    // MARK: - ViewController Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         dataSource = self
@@ -35,17 +36,14 @@ class PageViewController: UIPageViewController, PageController {
                                animated: true,
                                completion: nil)
         }
-        // Do any additional setup after loading the view.
-        
         delegate = self
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
+
+    /// Instantiates the viewcontroller in order to display on the pageview.
+    ///
+    /// - Parameter viewControllerIdentifier: Identifier of the viewController to instantiate
+    /// - Returns: UIViewController
     private func viewControllerToDisplay(viewControllerIdentifier: String) -> UIViewController {
         return UIStoryboard(name: "Main", bundle: nil) .
             instantiateViewController(withIdentifier: "\(viewControllerIdentifier)")
@@ -92,11 +90,13 @@ extension PageViewController: UIPageViewControllerDataSource {
         return viewControllerArray[nextIndex]
     }
     
-//    func moveToPage(at index: Int) {
-//        self.setViewControllers([viewControllerArray[index]], direction: .forward, animated: true, completion: nil)
-//    }
+    //    func moveToPage(at index: Int) {
+    //        self.setViewControllers([viewControllerArray[index]], direction: .forward, animated: true, completion: nil)
+    //    }
 }
 
+
+// MARK: - UIPageViewControllerDelegate
 extension PageViewController: UIPageViewControllerDelegate {
     
     func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {

@@ -17,18 +17,10 @@ class HorizontalMenuViewController: UIViewController, PagedMenu {
     private (set) var currentMenuIndex: Int = 0
 
     weak var pageContainer: PagedContainer!
-     var pagedMenu: PagedMenu!
+    var pagedMenu: PagedMenu!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        print("Loaded  HorizontalMenuViewController")
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     func moveToPage(at index: Int) {
