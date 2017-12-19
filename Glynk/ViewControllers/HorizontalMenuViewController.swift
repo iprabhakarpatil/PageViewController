@@ -71,7 +71,7 @@ extension HorizontalMenuViewController: ButtonCellDelegate {
                 collectionView.reloadItems(at: [indexPath, IndexPath.init(item: prevIndex, section: indexPath.section)])
             }
             pageContainer.didSelectMenu(at: currentMenuIndex)
-            pagedMenu.moveToPage(at: currentMenuIndex)
+            //pagedMenu.moveToPage(at: currentMenuIndex)
 
         }
     }

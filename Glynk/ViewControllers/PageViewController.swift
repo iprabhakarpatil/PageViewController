@@ -11,6 +11,7 @@ import UIKit
 class PageViewController: UIPageViewController, PageController {
     
     weak var pageContainer: PagedContainer!
+    var pagedMenu: PagedMenu?
     
     private (set) var currentViewController: UIViewController?
     
@@ -38,7 +39,6 @@ class PageViewController: UIPageViewController, PageController {
         }
         delegate = self
     }
-
 
     /// Instantiates the viewcontroller in order to display on the pageview.
     ///
@@ -89,23 +89,25 @@ extension PageViewController: UIPageViewControllerDataSource {
         }
         return viewControllerArray[nextIndex]
     }
-    
-    //    func moveToPage(at index: Int) {
-    //        self.setViewControllers([viewControllerArray[index]], direction: .forward, animated: true, completion: nil)
-    //    }
 }
-
 
 // MARK: - UIPageViewControllerDelegate
 extension PageViewController: UIPageViewControllerDelegate {
     
     func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
-        
         if(completed) {
             if let viewController = pageViewController.viewControllers?.last {
                 let index = viewControllerArray.index(of: viewController)! as! Int
                 pageContainer.didMoveToPage(at: index)
             }
         }
+    }
+}
+
+// MARK: - PagedMenu Delegate
+extension PageViewController: PagedMenu {
+
+    func moveToPage(at index: Int) {
+        self.setViewControllers([viewControllerArray[index]], direction: .forward, animated: true, completion: nil)
     }
 }

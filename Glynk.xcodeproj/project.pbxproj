@@ -7,27 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE278CAA1FE647440094DCE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278CA91FE647440094DCE6 /* AppDelegate.swift */; };
-		CE278CAC1FE647440094DCE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278CAB1FE647440094DCE6 /* ViewController.swift */; };
 		CE278CAF1FE647440094DCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE278CAD1FE647440094DCE6 /* Main.storyboard */; };
 		CE278CB11FE647440094DCE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE278CB01FE647440094DCE6 /* Assets.xcassets */; };
 		CE278CB41FE647440094DCE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE278CB21FE647440094DCE6 /* LaunchScreen.storyboard */; };
-		CE278CBC1FE69BE50094DCE6 /* HorizontalMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278CBB1FE69BE50094DCE6 /* HorizontalMenuViewController.swift */; };
-		CE278CBE1FE69D980094DCE6 /* MenuItem_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278CBD1FE69D980094DCE6 /* MenuItem_CollectionViewCell.swift */; };
-		CEBA3F021FE7BF7300B1A4E9 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA3F011FE7BF7300B1A4E9 /* PageViewController.swift */; };
+		CEE229651FE92DB8008D6595 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2295B1FE92DB8008D6595 /* ViewController.swift */; };
+		CEE229661FE92DB8008D6595 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2295C1FE92DB8008D6595 /* MovieViewController.swift */; };
+		CEE229671FE92DB8008D6595 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2295D1FE92DB8008D6595 /* MusicViewController.swift */; };
+		CEE229681FE92DB8008D6595 /* TechnologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2295E1FE92DB8008D6595 /* TechnologyViewController.swift */; };
+		CEE229691FE92DB8008D6595 /* PoliticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2295F1FE92DB8008D6595 /* PoliticsViewController.swift */; };
+		CEE2296A1FE92DB8008D6595 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE229601FE92DB8008D6595 /* SportsViewController.swift */; };
+		CEE2296B1FE92DB8008D6595 /* EventsNearByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE229611FE92DB8008D6595 /* EventsNearByViewController.swift */; };
+		CEE2296C1FE92DB8008D6595 /* TrendingNearYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE229621FE92DB8008D6595 /* TrendingNearYouViewController.swift */; };
+		CEE2296D1FE92DB8008D6595 /* HorizontalMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE229631FE92DB8008D6595 /* HorizontalMenuViewController.swift */; };
+		CEE2296E1FE92DB8008D6595 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE229641FE92DB8008D6595 /* PageViewController.swift */; };
+		CEE229741FE92DD0008D6595 /* MenuItem_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE229701FE92DCF008D6595 /* MenuItem_CollectionViewCell.swift */; };
+		CEE229751FE92DD0008D6595 /* RequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE229721FE92DCF008D6595 /* RequestData.swift */; };
+		CEE229761FE92DD0008D6595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE229731FE92DCF008D6595 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE278CA61FE647440094DCE6 /* Glynk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glynk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE278CA91FE647440094DCE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE278CAB1FE647440094DCE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE278CAE1FE647440094DCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE278CB01FE647440094DCE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE278CB31FE647440094DCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE278CB51FE647440094DCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE278CBB1FE69BE50094DCE6 /* HorizontalMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalMenuViewController.swift; sourceTree = "<group>"; };
-		CE278CBD1FE69D980094DCE6 /* MenuItem_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem_CollectionViewCell.swift; sourceTree = "<group>"; };
-		CEBA3F011FE7BF7300B1A4E9 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CEE2295B1FE92DB8008D6595 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE2295C1FE92DB8008D6595 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		CEE2295D1FE92DB8008D6595 /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		CEE2295E1FE92DB8008D6595 /* TechnologyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnologyViewController.swift; sourceTree = "<group>"; };
+		CEE2295F1FE92DB8008D6595 /* PoliticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliticsViewController.swift; sourceTree = "<group>"; };
+		CEE229601FE92DB8008D6595 /* SportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		CEE229611FE92DB8008D6595 /* EventsNearByViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsNearByViewController.swift; sourceTree = "<group>"; };
+		CEE229621FE92DB8008D6595 /* TrendingNearYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingNearYouViewController.swift; sourceTree = "<group>"; };
+		CEE229631FE92DB8008D6595 /* HorizontalMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalMenuViewController.swift; sourceTree = "<group>"; };
+		CEE229641FE92DB8008D6595 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CEE229701FE92DCF008D6595 /* MenuItem_CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem_CollectionViewCell.swift; sourceTree = "<group>"; };
+		CEE229721FE92DCF008D6595 /* RequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestData.swift; sourceTree = "<group>"; };
+		CEE229731FE92DCF008D6595 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +76,49 @@
 		CE278CA81FE647440094DCE6 /* Glynk */ = {
 			isa = PBXGroup;
 			children = (
-				CE278CA91FE647440094DCE6 /* AppDelegate.swift */,
-				CE278CAB1FE647440094DCE6 /* ViewController.swift */,
-				CE278CBB1FE69BE50094DCE6 /* HorizontalMenuViewController.swift */,
-				CE278CBD1FE69D980094DCE6 /* MenuItem_CollectionViewCell.swift */,
-				CEBA3F011FE7BF7300B1A4E9 /* PageViewController.swift */,
+				CEE229711FE92DCF008D6595 /* Utils */,
+				CEE2295A1FE92DB8008D6595 /* ViewControllers */,
+				CEE2296F1FE92DCF008D6595 /* PrototypeCells */,
 				CE278CB01FE647440094DCE6 /* Assets.xcassets */,
 				CE278CAD1FE647440094DCE6 /* Main.storyboard */,
 				CE278CB21FE647440094DCE6 /* LaunchScreen.storyboard */,
 				CE278CB51FE647440094DCE6 /* Info.plist */,
 			);
 			path = Glynk;
+			sourceTree = "<group>";
+		};
+		CEE2295A1FE92DB8008D6595 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2295B1FE92DB8008D6595 /* ViewController.swift */,
+				CEE2295C1FE92DB8008D6595 /* MovieViewController.swift */,
+				CEE2295D1FE92DB8008D6595 /* MusicViewController.swift */,
+				CEE2295E1FE92DB8008D6595 /* TechnologyViewController.swift */,
+				CEE2295F1FE92DB8008D6595 /* PoliticsViewController.swift */,
+				CEE229601FE92DB8008D6595 /* SportsViewController.swift */,
+				CEE229611FE92DB8008D6595 /* EventsNearByViewController.swift */,
+				CEE229621FE92DB8008D6595 /* TrendingNearYouViewController.swift */,
+				CEE229631FE92DB8008D6595 /* HorizontalMenuViewController.swift */,
+				CEE229641FE92DB8008D6595 /* PageViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CEE2296F1FE92DCF008D6595 /* PrototypeCells */ = {
+			isa = PBXGroup;
+			children = (
+				CEE229701FE92DCF008D6595 /* MenuItem_CollectionViewCell.swift */,
+			);
+			path = PrototypeCells;
+			sourceTree = "<group>";
+		};
+		CEE229711FE92DCF008D6595 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CEE229721FE92DCF008D6595 /* RequestData.swift */,
+				CEE229731FE92DCF008D6595 /* AppDelegate.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,11 +193,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE278CAC1FE647440094DCE6 /* ViewController.swift in Sources */,
-				CEBA3F021FE7BF7300B1A4E9 /* PageViewController.swift in Sources */,
-				CE278CBC1FE69BE50094DCE6 /* HorizontalMenuViewController.swift in Sources */,
-				CE278CBE1FE69D980094DCE6 /* MenuItem_CollectionViewCell.swift in Sources */,
-				CE278CAA1FE647440094DCE6 /* AppDelegate.swift in Sources */,
+				CEE2296B1FE92DB8008D6595 /* EventsNearByViewController.swift in Sources */,
+				CEE229681FE92DB8008D6595 /* TechnologyViewController.swift in Sources */,
+				CEE2296C1FE92DB8008D6595 /* TrendingNearYouViewController.swift in Sources */,
+				CEE229751FE92DD0008D6595 /* RequestData.swift in Sources */,
+				CEE2296E1FE92DB8008D6595 /* PageViewController.swift in Sources */,
+				CEE2296D1FE92DB8008D6595 /* HorizontalMenuViewController.swift in Sources */,
+				CEE229671FE92DB8008D6595 /* MusicViewController.swift in Sources */,
+				CEE2296A1FE92DB8008D6595 /* SportsViewController.swift in Sources */,
+				CEE229761FE92DD0008D6595 /* AppDelegate.swift in Sources */,
+				CEE229651FE92DB8008D6595 /* ViewController.swift in Sources */,
+				CEE229691FE92DB8008D6595 /* PoliticsViewController.swift in Sources */,
+				CEE229661FE92DB8008D6595 /* MovieViewController.swift in Sources */,
+				CEE229741FE92DD0008D6595 /* MenuItem_CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
